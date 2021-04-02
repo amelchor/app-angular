@@ -1,0 +1,10 @@
+{
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideStatusBar": false,
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.editor.decorations.colors": true,
+    "workbench.list.horizontalScrolling": true,
+    "editor.suggest.showStatusBar": true,
+    "diffEditor.codeLens": true
+}
