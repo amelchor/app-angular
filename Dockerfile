@@ -9,9 +9,10 @@ COPY . /usr/src/app
 RUN npm install
 RUN $(npm bin)/ng build --prod --aot
 
+# voy por la segunda prueba
 FROM nginx
 WORKDIR /usr/share/nginx/html/
 COPY --from=builder /usr/src/app/dist/my-app/ /usr/share/nginx/html
-EXPOSE 80 
+EXPOSE 80  443
 
 CMD nginx -g 'daemon off;'
